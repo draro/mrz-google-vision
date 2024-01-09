@@ -1,0 +1,24 @@
+{
+  "name": "mrz-google-vision",
+  "version": "1.0.0",
+  "description": "Passport MRZ Scanner Using Google Cloud vision OCR api and MRZ Scanner API",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js"
+  },
+  "keywords": [
+    "mrz",
+    "ocr",
+    "google-vision"
+  ],
+  "author": "Davide Raro",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^4.0.2",
+    "express": "^4.18.2",
+    "mrz": "^3.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
