@@ -4,7 +4,7 @@ const port = process.env.port || 5000;
 const vision = require('@google-cloud/vision');
 const client = new vision.ImageAnnotatorClient(
   {
-    keyFilename: './nolo-boss-395211-d21d7b2a3656.json'
+    keyFilename: 'API.json'
   }
 );
 const parse = require('mrz').parse;
