@@ -120,7 +120,7 @@ const start = Date.now();
 let dati
 try {
   const data = async () => {
-    dati = await quickstart('./samples/Passport.png','Passport');
+    dati = await quickstart('./samples/gabriele.png','Passport');
     console.log(dati) 
   }
   data()
